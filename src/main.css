@@ -236,7 +236,9 @@ body {
   justify-content: center;
 }
 .imgs > img {
-  width: 500px;
+  width: 315px;
+  height: fit-content;
+  object-fit: cover;
 }
 .reg-ims-bot{
   margin-top: 50px;
