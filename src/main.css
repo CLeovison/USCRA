@@ -121,7 +121,7 @@ body {
 
 /*Global Variables*/
 .min-height {
-  min-height: 60vh;
+  min-height: 100%;
 }
 
 /*Start of Home Section*/
@@ -214,7 +214,7 @@ body {
 }
 
 .infor > p {
-  font-size: 1.5dvw;
+  font-size: 1.7dvw;
 }
 .regnow {
   margin-top: 20px;
@@ -236,14 +236,12 @@ body {
   justify-content: center;
 }
 .imgs > img {
-  width: 315px;
-  height: fit-content;
-  object-fit: cover;
+  width: 300px;
 }
-.reg-ims-bot{
+.reg-ims-bot {
   margin-top: 50px;
 }
-.regis-imgs > img{
+.regis-imgs > img {
   width: 500px;
 }
 .open-imgs {
@@ -268,21 +266,19 @@ body {
   -webkit-filter: blur(2px);
 }
 
-
-.closetag{
+.closetag {
   position: fixed;
-top: 40px;
-right: 20%;
-cursor: pointer;
-z-index: 100;
+  top: 40px;
+  right: 20%;
+  cursor: pointer;
+  z-index: 100;
 }
-.open-imgs > img{
+.open-imgs > img {
   width: 700px;
 }
 .open-imgs.active {
   display: flex;
 }
-
 
 /*End of Registration*/
 
@@ -309,7 +305,8 @@ z-index: 100;
   color: black;
   font-size: 50px;
 }
-.mission > p, .vision > p{
+.mission > p,
+.vision > p {
   font-size: 30px;
 }
 .logos {
@@ -536,10 +533,10 @@ z-index: 100;
   .numbers {
     padding-top: 20px;
   }
-  .regis-imgs > img{
+  .regis-imgs > img {
     width: 390px;
   }
-  .open-imgs > img{
+  .open-imgs > img {
     width: 400px;
   }
 }
