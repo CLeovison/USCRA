@@ -370,11 +370,11 @@ body {
 .reps {
   list-style: none;
   padding: 5px;
-  font-size: 25px;
+  font-size: 18px;
 }
 .reps > span {
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .reps > a {
   text-decoration: none;
